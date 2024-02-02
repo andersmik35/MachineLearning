@@ -39,7 +39,7 @@ from sklearn.linear_model import LinearRegression
 # --Now with a line through the points
 # Generating data
 X = 2 * np.random.rand(100, 1)
-y = 4 + 3 * X + np.random.randn(100, 1)
+y = 3 + 4 * X + np.random.randn(100, 1)
 
 # Creating a linear regression model
 model = LinearRegression()
