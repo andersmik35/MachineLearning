@@ -4,16 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="01eb481d-9d48-4f35-a62a-cc704f04a78a" name="Changes" comment="commit">
-      <change afterPath="$PROJECT_DIR$/lektion02_linearRegression/Linear Regression Example 1.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lektion02_linearRegression/book_example.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lektion02_linearRegression/exercise13.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lektion02_linearRegression/exercise14.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lektion02_linearRegression/exercise1_2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/MachineLearning.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/MachineLearning.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="01eb481d-9d48-4f35-a62a-cc704f04a78a" name="Changes" comment="cost function">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lektion02_linearRegression/linreg.py" beforeDir="false" afterPath="$PROJECT_DIR$/lektion02_linearRegression/linreg.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,7 +105,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706861267057</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="cost function">
+      <option name="closed" value="true" />
+      <created>1706870333582</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1706870333582</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -131,6 +131,7 @@
     <MESSAGE value="fist commit" />
     <MESSAGE value="commit for first lesson" />
     <MESSAGE value="commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit" />
+    <MESSAGE value="cost function" />
+    <option name="LAST_COMMIT_MESSAGE" value="cost function" />
   </component>
 </project>
