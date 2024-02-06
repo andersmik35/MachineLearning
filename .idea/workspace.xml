@@ -5,6 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="01eb481d-9d48-4f35-a62a-cc704f04a78a" name="Changes" comment="cost function">
+      <change afterPath="$PROJECT_DIR$/lektion02_linearRegression/exercise15.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lektion02_linearRegression/exercise17.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lektion03_geneticAlgorithms/Cannonball_GA.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lektion03_geneticAlgorithms/Cannonball_Test_GA.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -36,18 +40,24 @@
   &quot;associatedIndex&quot;: 7
 }</component>
   <component name="ProjectId" id="2bfb8aLC6BC9ViaOIlCKfOvWLDq" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Python.Cannonball_GA.executor": "Run",
     "Python.Gui_Selvstudium (1).executor": "Run",
     "Python.Gui_Selvstudium.executor": "Run",
     "Python.book_example.executor": "Run",
     "Python.exercise13.executor": "Run",
     "Python.exercise14.executor": "Run",
+    "Python.exercise15.executor": "Run",
+    "Python.exercise17.executor": "Run",
     "Python.exercise1_2.executor": "Run",
     "Python.linreg.executor": "Run",
     "Python.main.executor": "Run",
@@ -55,12 +65,15 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Bruger\Desktop\4.Semester\MachineLearning\lektion03_geneticAlgorithms" />
       <recent name="C:\Users\Bruger\Desktop\4.Semester\MachineLearning\lektion02_linearRegression" />
+      <recent name="C:\Users\Bruger\Desktop\4.Semester\MachineLearning\lektion02_linearRegression\lek02_env" />
       <recent name="C:\Users\Bruger\Desktop\4.Semester\MachineLearning\lektion01_gui" />
       <recent name="C:\Users\Bruger\Desktop\4.Semester\MachineLearning\lektion01_intro" />
     </key>
@@ -113,7 +126,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706870333582</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="cost function">
+      <option name="closed" value="true" />
+      <created>1706880324401</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1706880324401</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -128,6 +149,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="fist commit" />
     <MESSAGE value="commit for first lesson" />
     <MESSAGE value="commit" />
