@@ -5,6 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="01eb481d-9d48-4f35-a62a-cc704f04a78a" name="Changes" comment="generic algo">
+      <change afterPath="$PROJECT_DIR$/lektion03_geneticAlgorithms/HealthcareGA.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lektion03_geneticAlgorithms/flight_ga.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lektion04_logisticRegression/exercise31.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lektion04_logisticRegression/exercise32.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lektion04_logisticRegression/exercise33.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,12 +54,17 @@
     "Python.Cannonball_GA.executor": "Run",
     "Python.Gui_Selvstudium (1).executor": "Run",
     "Python.Gui_Selvstudium.executor": "Run",
+    "Python.HealthcareGA.executor": "Run",
     "Python.book_example.executor": "Run",
     "Python.exercise13.executor": "Run",
     "Python.exercise14.executor": "Run",
     "Python.exercise15.executor": "Run",
     "Python.exercise17.executor": "Run",
     "Python.exercise1_2.executor": "Run",
+    "Python.exercise31.executor": "Run",
+    "Python.exercise32.executor": "Run",
+    "Python.exercise33.executor": "Run",
+    "Python.flight_ga.executor": "Run",
     "Python.linreg.executor": "Run",
     "Python.main.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -67,11 +77,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Bruger\Desktop\4.Semester\MachineLearning\lektion04_logisticRegression" />
       <recent name="C:\Users\Bruger\Desktop\4.Semester\MachineLearning\lektion03_geneticAlgorithms" />
       <recent name="C:\Users\Bruger\Desktop\4.Semester\MachineLearning\lektion02_linearRegression" />
       <recent name="C:\Users\Bruger\Desktop\4.Semester\MachineLearning\lektion02_linearRegression\lek02_env" />
       <recent name="C:\Users\Bruger\Desktop\4.Semester\MachineLearning\lektion01_gui" />
-      <recent name="C:\Users\Bruger\Desktop\4.Semester\MachineLearning\lektion01_intro" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -138,7 +148,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707216480300</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="generic algo">
+      <option name="closed" value="true" />
+      <created>1707463438696</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1707463438696</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
