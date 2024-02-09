@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="01eb481d-9d48-4f35-a62a-cc704f04a78a" name="Changes" comment="cost function">
-      <change afterPath="$PROJECT_DIR$/lektion02_linearRegression/exercise15.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lektion02_linearRegression/exercise17.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lektion03_geneticAlgorithms/Cannonball_GA.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lektion03_geneticAlgorithms/Cannonball_Test_GA.py" afterDir="false" />
+    <list default="true" id="01eb481d-9d48-4f35-a62a-cc704f04a78a" name="Changes" comment="generic algo">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -134,7 +130,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706880324401</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="generic algo">
+      <option name="closed" value="true" />
+      <created>1707216480300</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1707216480300</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -154,6 +158,7 @@
     <MESSAGE value="commit for first lesson" />
     <MESSAGE value="commit" />
     <MESSAGE value="cost function" />
-    <option name="LAST_COMMIT_MESSAGE" value="cost function" />
+    <MESSAGE value="generic algo" />
+    <option name="LAST_COMMIT_MESSAGE" value="generic algo" />
   </component>
 </project>
