@@ -14,7 +14,7 @@ plt.plot(X[neg[0],0], X[neg[0],1], 'bo')
 plt.xlim([min(X[:,0]),max(X[:,0])])
 plt.ylim([min(X[:,1]),max(X[:,1])])
 
-logreg = linear_model.LogisticRegression(C=1)
+logreg = linear_model.LogisticRegression(C=1000)
 
 
 h = .02  # step size in the mesh

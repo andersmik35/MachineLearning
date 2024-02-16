@@ -4,13 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="01eb481d-9d48-4f35-a62a-cc704f04a78a" name="Changes" comment="generic algo">
-      <change afterPath="$PROJECT_DIR$/lektion03_geneticAlgorithms/HealthcareGA.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lektion03_geneticAlgorithms/flight_ga.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lektion04_logisticRegression/exercise31.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lektion04_logisticRegression/exercise32.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lektion04_logisticRegression/exercise33.py" afterDir="false" />
+    <list default="true" id="01eb481d-9d48-4f35-a62a-cc704f04a78a" name="Changes" comment="ml">
+      <change afterPath="$PROJECT_DIR$/lektion04_logisticRegression/bmiOgSukkersyge.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lektion04_logisticRegression/diabetes.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lektion04_logisticRegression/diabetes_1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lektion04_logisticRegression/logreg_example.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lektion04_logisticRegression/exercise33.py" beforeDir="false" afterPath="$PROJECT_DIR$/lektion04_logisticRegression/exercise33.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,33 +49,35 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Python.Cannonball_GA.executor": "Run",
-    "Python.Gui_Selvstudium (1).executor": "Run",
-    "Python.Gui_Selvstudium.executor": "Run",
-    "Python.HealthcareGA.executor": "Run",
-    "Python.book_example.executor": "Run",
-    "Python.exercise13.executor": "Run",
-    "Python.exercise14.executor": "Run",
-    "Python.exercise15.executor": "Run",
-    "Python.exercise17.executor": "Run",
-    "Python.exercise1_2.executor": "Run",
-    "Python.exercise31.executor": "Run",
-    "Python.exercise32.executor": "Run",
-    "Python.exercise33.executor": "Run",
-    "Python.flight_ga.executor": "Run",
-    "Python.linreg.executor": "Run",
-    "Python.main.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Python.Cannonball_GA.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Gui_Selvstudium (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.Gui_Selvstudium.executor&quot;: &quot;Run&quot;,
+    &quot;Python.HealthcareGA.executor&quot;: &quot;Run&quot;,
+    &quot;Python.bmiOgSukkersyge.executor&quot;: &quot;Run&quot;,
+    &quot;Python.book_example.executor&quot;: &quot;Run&quot;,
+    &quot;Python.diabetes_1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.exercise13.executor&quot;: &quot;Run&quot;,
+    &quot;Python.exercise14.executor&quot;: &quot;Run&quot;,
+    &quot;Python.exercise15.executor&quot;: &quot;Run&quot;,
+    &quot;Python.exercise17.executor&quot;: &quot;Run&quot;,
+    &quot;Python.exercise1_2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.exercise31.executor&quot;: &quot;Run&quot;,
+    &quot;Python.exercise32.executor&quot;: &quot;Run&quot;,
+    &quot;Python.exercise33.executor&quot;: &quot;Run&quot;,
+    &quot;Python.flight_ga.executor&quot;: &quot;Run&quot;,
+    &quot;Python.linreg.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Bruger\Desktop\4.Semester\MachineLearning\lektion04_logisticRegression" />
@@ -156,7 +159,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707463438696</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="ml">
+      <option name="closed" value="true" />
+      <created>1707476030887</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1707476030887</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -177,6 +188,7 @@
     <MESSAGE value="commit" />
     <MESSAGE value="cost function" />
     <MESSAGE value="generic algo" />
-    <option name="LAST_COMMIT_MESSAGE" value="generic algo" />
+    <MESSAGE value="ml" />
+    <option name="LAST_COMMIT_MESSAGE" value="ml" />
   </component>
 </project>
