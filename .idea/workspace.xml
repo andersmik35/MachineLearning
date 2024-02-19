@@ -4,16 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="01eb481d-9d48-4f35-a62a-cc704f04a78a" name="Changes" comment="update on logistic reg">
-      <change afterPath="$PROJECT_DIR$/lektion03_geneticAlgorithms/Find_N_Number_Equal_X.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lektion05_simulations/.ipynb_checkpoints/Chicago Crime-checkpoint.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lektion05_simulations/Chicago Crime.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lektion05_simulations/ChicagoCrime.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lektion05_simulations/Chicago_Crimes_2018.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lektion05_simulations/WorldPopulation.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lektion05_simulations/World_population_estimates (1).csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lektion05_simulations/modsim.py" afterDir="false" />
+    <list default="true" id="01eb481d-9d48-4f35-a62a-cc704f04a78a" name="Changes" comment="update on genetic algo and logi reg">
+      <change afterPath="$PROJECT_DIR$/lektion05_simulations/Infection.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lektion05_simulations/WorldPopulation.py" beforeDir="false" afterPath="$PROJECT_DIR$/lektion05_simulations/WorldPopulation.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,6 +54,8 @@
     "Python.Gui_Selvstudium (1).executor": "Run",
     "Python.Gui_Selvstudium.executor": "Run",
     "Python.HealthcareGA.executor": "Run",
+    "Python.Infection.executor": "Run",
+    "Python.SVM_1.executor": "Run",
     "Python.WorldPopulation.executor": "Run",
     "Python.bmiOgSukkersyge.executor": "Run",
     "Python.book_example.executor": "Run",
@@ -181,7 +177,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708073267442</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="update on genetic algo and logi reg">
+      <option name="closed" value="true" />
+      <created>1708079263847</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1708079263847</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -204,6 +208,7 @@
     <MESSAGE value="generic algo" />
     <MESSAGE value="ml" />
     <MESSAGE value="update on logistic reg" />
-    <option name="LAST_COMMIT_MESSAGE" value="update on logistic reg" />
+    <MESSAGE value="update on genetic algo and logi reg" />
+    <option name="LAST_COMMIT_MESSAGE" value="update on genetic algo and logi reg" />
   </component>
 </project>

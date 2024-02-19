@@ -10,7 +10,7 @@ from modsim import *
 from pandas import read_csv
 import matplotlib.pyplot as plt
 
-filename = 'World_population_estimates.csv'
+filename = 'World_population_estimates (1).csv'
 table = read_csv(filename, header=0, index_col=0, decimal='M')
 print(len(table))
 
