@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="01eb481d-9d48-4f35-a62a-cc704f04a78a" name="Changes" comment="update on genetic algo and logi reg">
-      <change afterPath="$PROJECT_DIR$/lektion05_simulations/Infection.py" afterDir="false" />
+    <list default="true" id="01eb481d-9d48-4f35-a62a-cc704f04a78a" name="Changes" comment="svm's and lloyds algorithm">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lektion05_simulations/WorldPopulation.py" beforeDir="false" afterPath="$PROJECT_DIR$/lektion05_simulations/WorldPopulation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lektion06_supportVectorMachines/kmeans.py" beforeDir="false" afterPath="$PROJECT_DIR$/lektion06_kmeansAlgo/kmeans.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lektion06_supportVectorMachines/moons_dataset_kmeans.py" beforeDir="false" afterPath="$PROJECT_DIR$/lektion06_kmeansAlgo/moons_dataset_kmeans.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lektion06_supportVectorMachines/tutorial1kmeans.py" beforeDir="false" afterPath="$PROJECT_DIR$/lektion06_kmeansAlgo/tutorial1kmeans.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,6 +61,7 @@
     "Python.WorldPopulation.executor": "Run",
     "Python.bmiOgSukkersyge.executor": "Run",
     "Python.book_example.executor": "Run",
+    "Python.decisiontree.executor": "Run",
     "Python.diabetes_1.executor": "Run",
     "Python.exercise13.executor": "Run",
     "Python.exercise14.executor": "Run",
@@ -72,6 +75,7 @@
     "Python.linreg.executor": "Run",
     "Python.main.executor": "Run",
     "Python.modsim.executor": "Run",
+    "Python.tutorial2decisiontree.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -82,11 +86,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Bruger\Desktop\4.Semester\MachineLearning\lektion06_kmeansAlgo" />
       <recent name="C:\Users\Bruger\Desktop\4.Semester\MachineLearning\lektion03_geneticAlgorithms" />
       <recent name="C:\Users\Bruger\Desktop\4.Semester\MachineLearning\lektion05_simulations" />
       <recent name="C:\Users\Bruger\Desktop\4.Semester\MachineLearning\lektion04_logisticRegression" />
       <recent name="C:\Users\Bruger\Desktop\4.Semester\MachineLearning\lektion02_linearRegression" />
-      <recent name="C:\Users\Bruger\Desktop\4.Semester\MachineLearning\lektion02_linearRegression\lek02_env" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -185,7 +189,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708079263847</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="svm's and lloyds algorithm">
+      <option name="closed" value="true" />
+      <created>1708333209823</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1708333209823</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -209,6 +221,7 @@
     <MESSAGE value="ml" />
     <MESSAGE value="update on logistic reg" />
     <MESSAGE value="update on genetic algo and logi reg" />
-    <option name="LAST_COMMIT_MESSAGE" value="update on genetic algo and logi reg" />
+    <MESSAGE value="svm's and lloyds algorithm" />
+    <option name="LAST_COMMIT_MESSAGE" value="svm's and lloyds algorithm" />
   </component>
 </project>
