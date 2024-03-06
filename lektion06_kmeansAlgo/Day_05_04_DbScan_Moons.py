@@ -24,7 +24,7 @@ plt.show()
 # whatever you want to name it.( and those will be labeled by -1)
 
 from sklearn.cluster import DBSCAN
-db = DBSCAN(eps=0.1, min_samples=10)
+db = DBSCAN(eps=0.2, min_samples=10)
 # Plotting the clusters
 plt.scatter(x= X[:,0], y= X[:,1], c=db.fit_predict(X))
 
