@@ -45,7 +45,7 @@ X_train = scaler.transform(X_train)
 X_test = scaler.transform(X_test)
 
 from sklearn.neural_network import MLPClassifier
-mlp = MLPClassifier(hidden_layer_sizes=(5), max_iter=100)
+mlp = MLPClassifier(hidden_layer_sizes=(10,10,10), max_iter=1000)
 mlp.fit(X_train, y_train)
 
 #predictions
