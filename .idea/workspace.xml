@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="01eb481d-9d48-4f35-a62a-cc704f04a78a" name="Changes" comment="exercises">
-      <change afterPath="$PROJECT_DIR$/lektion10/.ipynb_checkpoints/Loan Approval Prediction-checkpoint.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lektion10/Loan Approval Prediction.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lektion10/bank_loan_data.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lektion10/lap.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lektion10/sag.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lektion10/StudentAbsenceGrade.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/lektion10/StudentAbsenceGrade.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -287,7 +285,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710837785174</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="exercises">
+      <option name="closed" value="true" />
+      <created>1710842481673</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1710842481673</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
