@@ -1,16 +1,9 @@
-from sklearn.datasets import make_circles
-from sklearn.svm import SVC
-from sklearn.model_selection import train_test_split
-from sklearn.metrics import accuracy_score
 import numpy as np
 import matplotlib.pyplot as plt
-
-# Generate 2D classification dataset
-X, y = make_circles(n_samples=100, noise=0.05, random_state=42)
-
-# Split the data into training and test sets
-X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3, random_state=42)
-
+from sklearn.datasets import make_circles
+from sklearn.model_selection import train_test_split
+from sklearn.svm import SVC
+from sklearn.metrics import accuracy_score
 
 # Function to plot decision boundaries
 def plot_decision_boundaries(X, y, model, title):
@@ -32,32 +25,24 @@ def plot_decision_boundaries(X, y, model, title):
     plt.title(title)
     plt.xlabel('Feature 1')
     plt.ylabel('Feature 2')
-
-
-# Initialize SVM models with different kernels
-kernels = ['linear', 'poly', 'rbf']
-models = {kernel: SVC(kernel=kernel) for kernel in kernels}
-
-# Train models and evaluate
-results = {}
-for kernel, model in models.items():
-    # Train model
-    model.fit(X_train, y_train)
-
-    # Predict on test set
-    y_pred = model.predict(X_test)
-
-    # Calculate accuracy
-    accuracy = accuracy_score(y_test, y_pred)
-
-    #Prints the accuracy for each kernel
-    print(f'Accuracy for SVM with {kernel} kernel: {accuracy:.2f}')
-
-    # Store results
-    results[kernel] = accuracy
-
-    # Plot decision boundaries
-    plt.figure(figsize=(8, 6))
-    plot_decision_boundaries(X_train, y_train, model, f'SVM with {kernel.capitalize()} Kernel')
     plt.show()
 
+# Generate 2D classification dataset
+X, y = make_circles(n_samples=100, noise=0.05, random_state=1)
+
+# Split the data into training and test sets
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3, random_state=1)
+
+# Initialize SVM classifiers with different kernels
+svm_linear = SVC(kernel='linear', C=1.0)
+svm_poly = SVC(kernel='poly', degree=2, C=1.0)  # Adjustable degree for polynomial kernel
+svm_rbf = SVC(kernel='rbf', gamma='scale', C=1.0)
+
+# Train, evaluate, and plot decision boundaries for each SVM classifier
+for svm, title in zip([svm_linear, svm_poly, svm_rbf],
+                      ['SVM with Linear Kernel', 'SVM with Polynomial Kernel', 'SVM with RBF Kernel']):
+    svm.fit(X_train, y_train)  # Train model
+    y_pred = svm.predict(X_test)  # Predict on test set
+    accuracy = accuracy_score(y_test, y_pred)  # Calculate accuracy
+    print(f'{title} - Accuracy: {accuracy:.2f}')  # Print accuracy
+    plot_decision_boundaries(X_train, y_train, svm, title)  # Plot decision boundaries
