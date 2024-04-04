@@ -157,7 +157,7 @@ mlp = MLPClassifier(solver='lbfgs', random_state=0, hidden_layer_sizes=[10,10])
 mlp.fit(X_train, y_train)
 
 accuracy = mlp.score(X_test,y_test)
-print(f'Accuracy: {accuracy:.2f}')
+print(f'Accuracy with MLP: {accuracy:.2f}')
 
 plot_2d_separator(mlp, X_train, fill=True, alpha=.3)
 discrete_scatter(X_train[:, 0], X_train[:, 1], y_train)
@@ -165,35 +165,35 @@ discrete_scatter(X_train[:, 0], X_train[:, 1], y_train)
 #Logistic Regression
 from sklearn.linear_model import LogisticRegression
 
-# Initialize and train the logistic regression model
 log_reg = LogisticRegression(random_state=0)
 log_reg.fit(X_train, y_train)
 
-# Evaluate the classifier on the test set and print the accuracy
 log_reg_accuracy = log_reg.score(X_test, y_test)
 print(f'Logistic Regression Accuracy: {log_reg_accuracy:.2f}')
 
 #Decision Trees
 from sklearn.tree import DecisionTreeClassifier
 
-# Initialize and train the decision tree classifier
 dt_clf = DecisionTreeClassifier(random_state=0)
 dt_clf.fit(X_train, y_train)
 
-# Evaluate the classifier on the test set and print the accuracy
 dt_accuracy = dt_clf.score(X_test, y_test)
 print(f'Decision Tree Accuracy: {dt_accuracy:.2f}')
 
 #Random Forests
 from sklearn.ensemble import RandomForestClassifier
 
-# Initialize and train the random forest classifier
 rf_clf = RandomForestClassifier(n_estimators=100, random_state=0)  # Using 100 trees
 rf_clf.fit(X_train, y_train)
 
-# Evaluate the classifier on the test set and print the accuracy
 rf_accuracy = rf_clf.score(X_test, y_test)
 print(f'Random Forest Accuracy: {rf_accuracy:.2f}')
+
+# Plotting Random Forests
+plt.figure(figsize=(10, 6))
+plot_2d_separator(rf_clf, X_train, fill=True, alpha=.3, cm=cm2)
+discrete_scatter(X_train[:, 0], X_train[:, 1], y_train)
+plt.title("Random Forests Decision Boundary with Training Data Points")
 
 
 
@@ -203,23 +203,31 @@ from sklearn.svm import SVC
 from sklearn.metrics import accuracy_score
 # Initialize SVM classifiers with different kernels
 svm_linear = SVC(kernel='linear', C=1.0)
-svm_poly = SVC(kernel='poly', degree=3, C=1.0)  # Degree for polynomial kernel
-svm_rbf = SVC(kernel='rbf', gamma='scale', C=1.0)  # Gamma for RBF kernel
+svm_poly = SVC(kernel='poly', degree=2, C=1.0)
+svm_rbf = SVC(kernel='rbf', gamma='scale', C=1.0)
 
-# Train the SVM classifiers
+# Training
 svm_linear.fit(X_train, y_train)
 svm_poly.fit(X_train, y_train)
 svm_rbf.fit(X_train, y_train)
 
-# Make predictions on the test set
+# Predictions
 y_pred_linear = svm_linear.predict(X_test)
 y_pred_poly = svm_poly.predict(X_test)
 y_pred_rbf = svm_rbf.predict(X_test)
 
-# Calculate the accuracy of each kernel type
+# Accuracy calc
 accuracy_linear = accuracy_score(y_test, y_pred_linear)
 accuracy_poly = accuracy_score(y_test, y_pred_poly)
 accuracy_rbf = accuracy_score(y_test, y_pred_rbf)
+
+
+#Plotting SVM with RBF Kernel
+plt.figure(figsize=(10, 6))
+plot_2d_separator(svm_rbf, X_train, fill=True, alpha=.3, cm=cm2)
+discrete_scatter(X_train[:, 0], X_train[:, 1], y_train)
+plt.title("SVM with RBF Kernel Decision Boundary with Training Data Points")
+
 
 # Print the accuracies
 print(f'Accuracy of SVM with Linear Kernel: {accuracy_linear:.2f}')
