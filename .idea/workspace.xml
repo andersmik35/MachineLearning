@@ -4,9 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="01eb481d-9d48-4f35-a62a-cc704f04a78a" name="Changes" comment="exercises">
+    <list default="true" id="01eb481d-9d48-4f35-a62a-cc704f04a78a" name="Changes" comment="K">
+      <change afterPath="$PROJECT_DIR$/lektion12convolutions/ML_Week11_Exercise_4_DeepLearning.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lektion12convolutions/ML_Week11_Exercise_5_Conv_Neural_Net.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lektion12convolutions/ML_Week11_Exercise_6_Conv_Neural_Net.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lektion12convolutions/ML_Week_11_Exercise2_Convolution.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lektion12convolutions/ML_Week_11_Exercise3_Convolution.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aflevering/faces_pca_svm.py" beforeDir="false" afterPath="$PROJECT_DIR$/aflevering/faces_pca_svm.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -395,7 +399,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712904369910</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="K">
+      <option name="closed" value="true" />
+      <created>1712908842911</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1712908842911</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -422,6 +434,7 @@
     <MESSAGE value="svm's and lloyds algorithm" />
     <MESSAGE value="Decision trees" />
     <MESSAGE value="exercises" />
-    <option name="LAST_COMMIT_MESSAGE" value="exercises" />
+    <MESSAGE value="K" />
+    <option name="LAST_COMMIT_MESSAGE" value="K" />
   </component>
 </project>
