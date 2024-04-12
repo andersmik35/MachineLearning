@@ -82,3 +82,10 @@ from sklearn import metrics
 y_pred = clf.predict(X_test_pca)
 print(metrics.classification_report(y_test, y_pred))
 
+print(metrics.confusion_matrix(y_test, y_pred))
+
+#Print the accuracy
+print(metrics.accuracy_score(y_test, y_pred))
+
+
+
