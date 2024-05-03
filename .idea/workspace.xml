@@ -4,18 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="01eb481d-9d48-4f35-a62a-cc704f04a78a" name="Changes" comment="exercies">
-      <change afterPath="$PROJECT_DIR$/lektion13NLP/.ipynb_checkpoints/ClassifyTextSpacy-checkpoint.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lektion13NLP/ClassifyTextSpacy.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lektion13NLP/EightThings.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lektion13NLP/IntroSpaCy.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lektion13NLP/exercise06.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lektion13NLP/nlp.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lektion13NLP/sp.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lektion14autoenc/ML_Week_12_Exercise1_Autoencoder.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lektion14autoenc/ML_Week_12_Exercise2_Autoencoder.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lektion14autoenc/exercise1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lektion14autoenc/exercise2.py" afterDir="false" />
+    <list default="true" id="01eb481d-9d48-4f35-a62a-cc704f04a78a" name="Changes" comment="alot of exercies">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -421,7 +410,23 @@
       <option name="project" value="LOCAL" />
       <updated>1712915747571</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="alot of exercies">
+      <option name="closed" value="true" />
+      <created>1714372482842</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1714372482842</updated>
+    </task>
+    <task id="LOCAL-00039" summary="alot of exercies">
+      <option name="closed" value="true" />
+      <created>1714372501448</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1714372501448</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -450,6 +455,7 @@
     <MESSAGE value="exercises" />
     <MESSAGE value="K" />
     <MESSAGE value="exercies" />
-    <option name="LAST_COMMIT_MESSAGE" value="exercies" />
+    <MESSAGE value="alot of exercies" />
+    <option name="LAST_COMMIT_MESSAGE" value="alot of exercies" />
   </component>
 </project>
